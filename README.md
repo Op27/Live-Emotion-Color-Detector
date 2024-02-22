@@ -2,6 +2,12 @@
 
 The Live-Emotion-Color-Detector is an application designed to detect human emotions in real-time using a webcam feed. Utilizing the robust RMN model trained on the FER-2013 dataset, this application classifies facial expressions into distinct emotions and highlights them with unique color codes. This application serves as a uselful tool for augmenting interactive experiences and engaging users with intuitive emotion recognition.
 
+## Sample: Detected Emotions
+<img width="820" alt="detected emotions" src="https://github.com/Op27/Live-Emotion-Color-Detector/assets/39921621/f6f7b7ec-d9a1-4a0f-8861-b1b0497f3c10">
+
+Image: Face images courtesy of the [AICE](https://aice.uva.nl/research-tools/adfes-stimulus-set/adfes-stimulus-set.html?cb)
+
+
 
 ## Features
 
