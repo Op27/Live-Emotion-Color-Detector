@@ -11,7 +11,7 @@ emotion_colors = {
     "fear": (255, 0, 255),  # Magenta
     "happy": (147, 20, 255),  # Pink
     "sad": (255, 0, 0),  # Blue
-    "surprise": (0, 255, 255),  # Cyan
+    "surprise": (255, 255, 0),  # Yellow
     "neutral": (255, 255, 255),  # White
 }
 
@@ -31,7 +31,7 @@ while True:
         results = m.detect_emotion_for_single_frame(frame)
         for result in results:
             x, y, x2, y2 = result['xmin'], result['ymin'], result['xmax'], result['ymax']
-            emotion = result['emo_label'].lower()  # Convert to lowercase for case-insensitive matching
+            emotion = result['emo_label'].lower()  
             print(emotion)  # Debugging line to check the emotion labels
             color = emotion_colors.get(emotion, (0, 255, 255))  # Default to yellow if emotion not found
             cv2.rectangle(frame, (x, y), (x2, y2), color, 2)
