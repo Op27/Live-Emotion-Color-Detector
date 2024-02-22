@@ -15,6 +15,21 @@ Image: Face images courtesy of the [AICE](https://aice.uva.nl/research-tools/adf
 - **Color-Coded Feedback**: Assigns unique colors to different emotions for intuitive and immediate understanding.
 - **Flexible Application**: Ideal for diverse contexts including interactive installations, educational tools, and enhancing customer service experiences with intuitive emotion recognition.
 
+## Color Coding for Emotions
+
+The Live-Emotion-Color-Detector uses a distinct color code to visually represent each detected emotion in real-time. This approach allows for immediate and intuitive recognition of the emotional state being displayed. Below is the color coding rule used by the application:
+
+- **Angry**: Red `RGB(0, 0, 255)`
+- **Disgust**: Dark Green `RGB(0, 128, 0)`
+- **Fear**: Magenta `RGB(255, 0, 255)`
+- **Happy**: Pink `RGB(147, 20, 255)`
+- **Sad**: Blue `RGB(255, 0, 0)`
+- **Surprise**: Cyan `RGB(0, 255, 255)`
+- **Neutral**: White `RGB(255, 255, 255)`
+
+Each color has been carefully selected to represent the essence of its corresponding emotion, enhancing the user's ability to quickly understand and react to the detected emotional states.
+
+
 ## Launch Instructions
 
 ### Prerequisites
